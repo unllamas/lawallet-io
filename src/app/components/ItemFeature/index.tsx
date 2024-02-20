@@ -19,7 +19,7 @@ export default function Header(props: HeaderProps) {
 
   return (
     <ItemFeaturePrimitive>
-      {src && <Image src={`/features/${src}`} width={434} height={250} alt='' />}
+      {src && <Image src={`/features/${src}`} width={434} height={250} alt={title} priority={true} />}
       <div className='box'>
         <div className='info'>
           <span>{number}.</span>

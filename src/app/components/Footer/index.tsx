@@ -36,18 +36,18 @@ export default function Footer() {
               </Link>
             </div>
             <div className='social'>
-              <Link href='#'>
-                <Button variant='bezeled'>
+              <Link href='https://twitter.com/lawalletOk/' target='_blank'>
+                <Button variant='bezeled' tabIndex={-1}>
                   <Twitter />
                 </Button>
               </Link>
-              <Link href=''>
-                <Button variant='bezeled'>
+              <Link href='https://github.com/lawalletio/' target='_blank'>
+                <Button variant='bezeled' tabIndex={-1}>
                   <Github />
                 </Button>
               </Link>
-              <Link href=''>
-                <Button variant='bezeled'>
+              <Link href='https://discord.gg/skvz2HdcYJ' target='_blank'>
+                <Button variant='bezeled' tabIndex={-1}>
                   <Discord />
                 </Button>
               </Link>
